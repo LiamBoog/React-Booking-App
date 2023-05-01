@@ -1,0 +1,81 @@
+.backdrop {
+    background-color: rgb(46, 45, 53);
+    height: 100vh;
+}
+
+.centered {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.centered.canvas {
+    width: fit-content;
+    height: fit-content;
+    padding: 60px;
+    padding-bottom: 50px;
+    border-radius: 6px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(65, 64, 73);
+    filter: drop-shadow(1px 0px 15px rgb(24, 24, 27))
+}
+
+h1 {
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+.booking-info {
+    text-align: center;
+    padding: 50px auto;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    user-select: text;
+}
+
+#dollar-sign {
+    color: rgb(255, 187, 0);
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#weekday {
+    color: rgb(82, 165, 82);
+}
+
+#weekend {
+    color: rgb(201, 178, 49);
+}
+
+.calendar {
+    filter: drop-shadow(1px 0px 5px rgb(30, 30, 34));
+}
+
+.booking-selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#time-slot-picker-text {
+    font-size: 0.8em;
+    color: rgb(250, 235, 215, 0.7);
+    text-align: center;
+    height: 1.7em;
+    user-select: none;
+}
+
+#signature {
+    margin: auto;
+    font-size: 0.85em;
+    font-family: 'Cormorant', serif;
+    color: rgb(250, 235, 215, 0.8);
+    user-select: none;
+}

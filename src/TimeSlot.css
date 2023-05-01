@@ -1,0 +1,51 @@
+.time-slot-picker {
+    width: 100px;
+    max-width: 100%;
+    background-color: rgb(87, 85, 92);
+    border-radius: 10px;
+    filter: drop-shadow(1px 0px 5px rgb(30, 30, 34));
+    padding: 5px 0;
+}
+
+.time-slot {
+    width: 95px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    color: antiquewhite;
+    user-select: none;
+    border-radius: 5px;
+    height: 1.6em;;
+    line-height: 1.6em;
+}
+
+.sub-slot {
+    font-size: 0.9em;
+    height: 1em;
+    line-height: 0.9em;
+    color: rgb(250, 235, 215, 0.7);
+}
+
+.selected {
+    background-color: #473ca8;
+}
+
+.start {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.middle {
+    border-radius: 0px;
+}
+
+.end {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.time-slot:hover {
+    background: rgb(74, 73, 77);
+}
+
+.selected:hover {
+    background-color: #4136a3;
+}
