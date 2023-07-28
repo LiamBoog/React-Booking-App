@@ -3,6 +3,7 @@ React app I made in Feb. 2022 to learn React. Allows the user to select a date a
 
 Run the following in a terminal to start the app:
 
-```npm install```
-
-```npm start```
+```
+npm install
+npm start
+```
